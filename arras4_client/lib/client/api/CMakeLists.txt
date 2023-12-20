@@ -41,6 +41,7 @@ target_link_libraries(${LibName}
         ${PROJECT_NAME}::message_impl
         ${PROJECT_NAME}::shared_impl
         ${PROJECT_NAME}::chunking
+	Boost::filesystem
 )
 
 target_include_directories(${LibName}
